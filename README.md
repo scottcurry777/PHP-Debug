@@ -12,12 +12,17 @@ c() will print the debug results in a format that is easily readable in the cons
 cr() will return the console formatted debug results.  Useful when used in an ajax function return.<br>
 cl() will cause PHP to send the debug results to the console log.  Useful when debugging live code and you don't want to display information on the screen.
 
-Use commas to seperate different debug items in the same function.
+Use commas to seperate different debug items in the same function.<br>
+You can also call these functions across multiple lines.
 
 EXAMPLES:<br>
 d($a);<br>
 d($a + $b);<br>
 d($a, $b);<br>
-d('text'.$string, foo($bar), $bat);
+d('text'.$string, foo($bar), $bat);<br>
+d($a,<br>
+  $b,<br>
+  foo($bar)<br>
+);
 
 When using d() and dr(), click on the green line number to see which file your debug code is in.
