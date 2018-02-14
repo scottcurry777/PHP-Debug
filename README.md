@@ -21,8 +21,8 @@ d($a + $b);<br>
 d($a, $b);<br>
 d('text'.$string, foo($bar), $bat);<br>
 d($a,<br>
-  $b,<br>
-  foo($bar)<br>
+&nbsp;&nbsp;$b,<br>
+&nbsp;&nbsp;foo($bar)<br>
 );
 
 When using d() and dr(), click on the green line number to see which file your debug code is in.
