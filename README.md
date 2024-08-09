@@ -1,6 +1,10 @@
 # PHP-Debug
 Powerful PHP Debug Function
 
+-------------------------------------------------------------------
+WARNING! DESIGNED FOR PHP 5.6. MAY NOT WORK WITH PHP 7.1 AND ABOVE.
+-------------------------------------------------------------------
+
 This is a set of powerful PHP debug functions that I wrote in 2016.<br>
 To use, just include the debug.php file in your project.
 
